@@ -1,4 +1,4 @@
-add_library(sqlpp-mysql 
+add_library(sqlpp-mysql SHARED
 		connection.cpp
 		prepared_statement.cpp
 		char_result.cpp
